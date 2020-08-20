@@ -201,6 +201,16 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  svg {
+    width: 96px;
+  }
 
 }
+
 
