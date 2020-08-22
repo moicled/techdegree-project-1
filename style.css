@@ -27,7 +27,7 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 50px;
+  padding: 10px;
   position: fixed;
   text-align: right;
 }
@@ -56,10 +56,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('kim-big-me.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 header {
   line-height: 1.5;
@@ -73,7 +73,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -118,7 +118,6 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -127,6 +126,7 @@ footer {
 
 footer .copyright {
   top: -8px;
+  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -147,11 +147,11 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
+  opacity: .5;
+  transition: all .25s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/Instgram.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -206,9 +206,6 @@ a.social:hover {
   }
   li {
     display: inline-block;
-  }
-  svg {
-    width: 96px;
   }
 
 }
